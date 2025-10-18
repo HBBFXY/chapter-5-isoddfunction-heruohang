@@ -11,3 +11,10 @@ def isOdd(value):
     # 学生实现代码区域
     # 提示：首先检查类型是否为整数，然后检查奇偶性
     
+def is_odd(n):
+    if n%2==0:
+        return False
+    else:
+        return True
+
+print(is_odd(3))
